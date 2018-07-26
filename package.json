@@ -1,0 +1,37 @@
+{
+  "name": "koa-mount-routes",
+  "version": "0.0.1",
+  "description": "A koa package to load routes automatically from file system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maples7/koa-mount-routes.git"
+  },
+  "keywords": [
+    "koa",
+    "router",
+    "routes"
+  ],
+  "author": "Maples7 <maples7.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maples7/koa-mount-routes/issues"
+  },
+  "homepage": "https://github.com/Maples7/koa-mount-routes#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "lodash": "^4.17.10",
+    "pluralize": "^7.0.0"
+  },
+  "peerDependencies": {
+    "koa-router": ">= 6.0.0",
+    "koa": ">= 2.0.0"
+  },
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0"
+  }
+}
