@@ -1,1 +1,4 @@
 .travis.yml
+.nyc_output
+test.js
+controllers
