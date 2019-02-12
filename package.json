@@ -1,6 +1,6 @@
 {
   "name": "koa-mount-routes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A koa package to load routes automatically from file system.",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,9 @@
   "dependencies": {
     "debug": "^3.1.0",
     "glob": "^7.1.2",
-    "lodash": "^4.17.10",
-    "pluralize": "^7.0.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "pluralize": "^7.0.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
